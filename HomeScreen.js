@@ -130,8 +130,8 @@ export default class HomeScreen extends Component{
             }}
             value={this.state.text}
           />
-  `````}
-          <TouchableOpacity
+  }
+    <TouchableOpacity
             style={styles.searchButton}
             onPress={() => {
               this.setState({ isSearchPressed: true });
